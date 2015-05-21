@@ -1,0 +1,39 @@
+body {
+	font-family: sans-serif;
+}
+nav {
+	position: fixed;
+	top: 0px;
+	left: 140px;
+	width: 90%;
+	height: 54px;
+	background: linear-gradient(to right, #7b4397 0%,#b5238a 59%,#dc2430 87%);
+	color: #FFF;
+}
+ul {
+	display: inline-block;
+}
+li {
+	padding-left: 25px;
+}
+ul li {
+	display: inline-block;
+}
+h3 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0 auto;
+	display: inline-block;
+	width: 10%;
+	height: 54px;
+	background: #7B4397;
+}
+#book {
+	font-weight: bold;
+	padding-right: 50px;
+}
+#deals {
+	font-size: 0.5em;
+	padding-right: 150px;
+}
