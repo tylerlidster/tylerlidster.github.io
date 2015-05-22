@@ -1,0 +1,57 @@
+body {
+	font-family: sans-serif;
+	background-color: #FFF;
+}
+h1 {
+	text-align: center;
+	font-size: 5em;
+	font-weight: lighter;
+	color: red;
+}
+h2 {
+	color: red;
+}
+section {
+	width: 100%;
+}
+form p{
+	font-size: 0.7em;
+	color: #939393;
+}
+label {
+	display: block;
+}
+#join {
+	text-align: center;
+}
+#email {
+	padding-top: 25px;
+	padding-bottom: 150px;
+	border-bottom: 1px solid black;
+}
+#emaildescription {
+	position: absolute;
+	left: 300px;
+	width: 25%;
+	float: left;
+}
+#emailinput {
+	width: 50%;
+	float: right;
+}
+#password {
+	;
+}
+#passworddescription {
+	position: absolute;
+	left: 300px;
+	width: 25%;
+	float: left;
+}
+#passwordinput {
+	width: 50%;
+	float: right;
+}
+p a {
+	color: #000;
+}
