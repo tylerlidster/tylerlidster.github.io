@@ -2,6 +2,7 @@ body {
 	font-family: sans-serif;
 }
 form {
+	display: block;
 	text-align: center;
 	background-color: #c3c2c2;
 	border-radius: 90%;
@@ -13,9 +14,6 @@ input {
 }
 input[name="email"] {
 	width: 300px;
-}
-input[type="radio"] {
-
 }
 input[type="submit"] {
 	width: 100px;
