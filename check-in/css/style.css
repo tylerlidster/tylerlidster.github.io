@@ -1,0 +1,54 @@
+body {
+	width: 100%;
+	background-color: #252A2D;
+	color: #FFF;
+	font-family: sans-serif;
+}
+section {
+
+}
+h1 {
+	font-size: 3em;
+	font-weight: lighter;
+}
+h2 {
+	font-weight: lighter;
+}
+article {
+
+}
+form {
+	
+}
+label {
+	display: block;
+}
+input {
+	height: 30px;
+	width: 300px;
+	background-color: #252A2D;
+	border: 1px solid grey;
+	
+}
+input[type="submit"]{
+	text-transform: uppercase;
+	width: 200px;
+	border: 1px solid magenta;
+	color: magenta;
+}
+#checkin {
+	text-align: center;
+}
+#member {
+	width: 50%;
+	float: left;
+	position: absolute;
+	left: 350px;
+}
+#nonmembers {
+	width: 50%;
+	float: right;
+}
+p {
+	font-size: 0.8em;
+}
