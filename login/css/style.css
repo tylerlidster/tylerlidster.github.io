@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+	background-color: red;
+	color: #FFF;
+}
+section {
+	width: 100%;
+}
+article {
+
+}
+form {
+	display: block;
+  	margin-top: 0em;
+	width: 33%;
+	float: left;
+}
+label {
+	display: block;
+}
+input {
+	height: 30px;
+	width: 300px;
+}
+input[type="submit"] {
+	text-transform: uppercase;
+	border: 1px solid black;
+	background-color: #FFF;
+}
+input[type="send"] {
+	text-transform: uppercase;
+	border: 1px solid #FFF;
+	text-align: center;
+	color: #FFF;
+	background-color: red;
+}
+h1 {
+	font-size: 5em;
+	margin: 0;
+	font-weight: lighter;
+}
+h2 {
+	color: #000;
+}
+#login {
+	width: 33%;
+	float: left;
+}
+#moreinfo {
+	width: 33%;
+	float: right;
+}
