@@ -1,10 +1,9 @@
 header {
 	position: fixed;
-	top: 0%;
+	width: 100%;
+	
 }
 nav {
-	position: fixed;
-	width: 100%;
 	font-family: sans-serif;
 }
 ul li{
@@ -12,7 +11,7 @@ ul li{
 	display: inline-block;
 	text-transform: uppercase;
 	padding-left: 10px;
-	padding-right: 5px;
+	padding-right: 15px;
 }
 ul {
 	margin: 0;
@@ -28,12 +27,16 @@ a {
 	color: #979797;
 }
 img {
+	display: inline-block;
 	background-color: red;
-	width: 125px;
+	width: 150px;
 	height: 56px;
 }
 #store {
 	padding-left: 0;
-	padding-right: 180px;
+	padding-right: 150px;
 	border-left: 1px solid #979797;
+}
+div ul {
+	padding: 0;
 }
