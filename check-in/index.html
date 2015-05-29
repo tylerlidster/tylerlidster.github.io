@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
@@ -7,43 +6,37 @@
 </head>
 <body>
 	<section>
-		<article id="checkin">
 		<h1>It's that time.</h1>
 		<h2>Check in for your flight by signing in or using your flight info.</h2>
-		</article>
-		<article id="member">
-			<h2>Elevate Members</h2>
-			<form>
-				<p>
-				<label>Email or Elevate #</label>
-				<input type="text" name="email">
-				</p>
-				<p>
-				<label>Password</label>
-				<input type="text" name="password">
-				</p>
-				<p>
-				<input type="submit" name="submit" value="Sign In">
-				</p>
-			</form>
-		</article>
-		<article id="nonmembers">
-		<h2>Non-Members</h2>
-		<form>
-				<p>
-				<label>Last Name</label>
-				<input type="text" name="lastname">
-				</p>
-				<p>
-				<label>Confirmation Code / Ticket Number</label>
-				<input type="text" name="confirmationcode">
-				</p>
-				<p>Your confirmation code was sent to your email address when you booked your ticket.</p>
-				<p>
-				<input type="submit" name="submit" value="Find My Flights">
-				</p>
+		<form id="members">
+			<h3>Elevate Members</h2>
+			<p>
+			<label>Email or Elevate #</label>
+			<input type="text" name="email">
+			</p>				
+			<p>
+			<label>Password</label>
+			<input type="text" name="password">
+			</p>
+			<p>	
+			<input type="submit" name="submit" value="Sign In">
+			</p>
 		</form>
-		</article>
-	</section>
+		<form id="nonmembers">
+			<h3>Non-Members</h2>
+			<p>
+			<label>Last Name</label>
+			<input type="text" name="lastname">
+			</p>
+			<p>
+			<label>Confirmation Code / Ticket Number</label>
+			<input type="text" name="confirmationcode">
+			</p>
+			<p>Your confirmation code was sent to your email address when you booked your ticket.</p>
+			<p>
+			<input type="submit" name="submit" value="Find My Flights">
+			</p>
+		</form>
+	</section>	
 </body>
 </html>
