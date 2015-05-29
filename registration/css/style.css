@@ -1,33 +1,18 @@
-body {
+section {
+	width: 100%;
 	font-family: sans-serif;
 }
-section {
-	width: 80%;
-}
-#login {
-	float: left;
-	height: 300px;
-}
-#create {
-	position: absolute;
-	left: 400px;
-	height: 300px;
-	float: right;
-	border-left: 1px solid black;
-	padding-left: 120px;
-}
 form {
-	width: 100%;
+	float: left;
+	padding-left: 200px;
+}
+article {
+	float: right;
+	padding-right: 200px;
 }
 label {
 	display: block;
 	text-transform: uppercase;
-	font-size: 0.9em;
-}
-h2 {
-	text-transform: uppercase;
-}
-p {
 	font-size: 0.6em;
 }
 input[type="submit"] {

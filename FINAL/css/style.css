@@ -1,39 +1,24 @@
-header {
-	position: fixed;
-	top: 0%;
-}
-nav {
-	position: fixed;
+section {
 	width: 100%;
 	font-family: sans-serif;
 }
-ul li{
-	list-style-type: none;
-	display: inline-block;
+form {
+	float: left;
+	padding-left: 200px;
+}
+article {
+	float: right;
+	padding-right: 200px;
+}
+label {
+	display: block;
 	text-transform: uppercase;
-	padding-left: 10px;
-	padding-right: 5px;
+	font-size: 0.6em;
 }
-ul {
-	margin: 0;
-}
-div {
-	display: inline-block;
-}
-ul {
-	display: inline-block;
-}
-a {
-	text-decoration: none;
-	color: #979797;
-}
-img {
-	background-color: red;
-	width: 125px;
-	height: 56px;
-}
-#store {
-	padding-left: 0;
-	padding-right: 180px;
-	border-left: 1px solid #979797;
-}
+input[type="submit"] {
+	width: 100px;
+	background-color: #000;
+	color: #FFF;
+	text-transform: uppercase;
+	width: 100px;
+	height: 30px;
