@@ -1,26 +1,45 @@
 body {
-	font-family: sans-serif;
 	background-color: red;
 	color: #FFF;
 }
 section {
+	position: relative;
 	width: 100%;
-}
-article {
-
+	font-family: sans-serif;
 }
 form {
-	display: block;
-  	margin-top: 0em;
-	width: 33%;
-	float: left;
+	position: absolute;
+	top: 0;
+	left: 500px;
 }
 label {
 	display: block;
+	font-size: 0.8em;
 }
 input {
 	height: 30px;
 	width: 300px;
+}
+ul {
+	position: absolute;
+	top: 0;
+	left: 900px;
+	list-style-type: none;
+}
+ul li {
+	font-size: 1.2em;
+}
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+h1 {
+	font-size: 3.5em;
+	font-weight: lighter;
+}
+h2 {
+	font-size: 1.5em;
+	color: #000;
 }
 input[type="submit"] {
 	text-transform: uppercase;
@@ -33,20 +52,4 @@ input[type="send"] {
 	text-align: center;
 	color: #FFF;
 	background-color: red;
-}
-h1 {
-	font-size: 5em;
-	margin: 0;
-	font-weight: lighter;
-}
-h2 {
-	color: #000;
-}
-#login {
-	width: 33%;
-	float: left;
-}
-#moreinfo {
-	width: 33%;
-	float: right;
 }
